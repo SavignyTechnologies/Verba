@@ -112,7 +112,9 @@ app = FastAPI()
 origins = [
     "http://localhost:3000",
     "https://verba-golden-ragtriever.onrender.com",
+    "https://verba-9ccg.onrender.com",
     "http://localhost:8000",
+    "http://localhost:10000",
 ]
 
 # Add middleware for handling Cross Origin Resource Sharing (CORS)
